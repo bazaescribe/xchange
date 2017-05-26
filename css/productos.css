@@ -1,0 +1,79 @@
+body{
+ background-color: white;
+}
+
+.thumbnail-box{
+  margin-top: 50px;
+  border: 1px grey;
+  align-items: center;
+}
+
+
+.profile-divleft{
+  display: inline-block;
+}
+
+.media-right{
+  width: 425px;
+  float: right;
+  margin: 32px 15px 0 0;
+  text-align: right;
+  font-size: 32px;
+}
+
+.carrusel{
+  width: 940px;
+  height: 960;
+  margin: 0 0 0 0;
+}
+
+.product-image{
+  width: 940px;
+  height: 960px;
+}
+
+.icon-menu{
+  height: 45px;
+  margin: 25px 0 0 0;
+  float: left;
+  width: 425px;
+}
+
+.boton{
+  float: right;
+  width: 520px;
+  display: inline-block;
+}
+
+.boton-trueque{
+  background-color: red;
+  text-align: center;
+  font-size: 36px;
+  text-align: center;
+  width: 245px;
+  height: 75px;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.icon{
+  font-size: 38px;
+  height: 48px;
+  padding-left: 35px;
+  padding-bottom: 20px;
+}
+
+.size-text{
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 20px;
+  float: left;
+  height: 50px;
+}
+
+.description{
+  font-size: 32px;
+  line-height: 38px;
+  padding-bottom: 15px;
+}

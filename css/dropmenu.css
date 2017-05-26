@@ -1,0 +1,11 @@
+.back-menu{
+ background-color: #323033;
+}
+
+.icon-menu{
+  border: 0px;
+}
+
+.active-menu{
+  background-color: pink;
+}
