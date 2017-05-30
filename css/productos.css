@@ -1,5 +1,5 @@
-body{
- background-color: white;
+.body{
+  font-family: Roboto;
 }
 
 .thumbnail-box{
@@ -11,6 +11,7 @@ body{
 
 .profile-divleft{
   display: inline-block;
+  margin-left: -12px;
 }
 
 .media-right{
@@ -22,9 +23,16 @@ body{
 }
 
 .carrusel{
-  width: 940px;
-  height: 960;
-  margin: 0 0 0 0;
+  margin-top: -25px;
+}
+
+.position-indicator{
+  bottom: -5px;
+}
+
+.sombra-carrusel{
+  height: 345px;
+  margin-top: -32px;
 }
 
 .product-image{
@@ -34,46 +42,69 @@ body{
 
 .icon-menu{
   height: 45px;
-  margin: 25px 0 0 0;
+  margin-top: 5px;
+  margin-left: -25px;
   float: left;
-  width: 425px;
-}
-
-.boton{
-  float: right;
-  width: 520px;
-  display: inline-block;
+  width: 400px;
 }
 
 .boton-trueque{
-  background-color: red;
+  margin-top: -30px;
+  float: right;
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: black;
   text-align: center;
-  font-size: 36px;
-  text-align: center;
-  width: 245px;
-  height: 75px;
+  width: 132px;
+  height: 32px;
   border: 0;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  border-radius: 0;
+  padding: 8px 0px 6px 1px;
+}
+
+.boton-trueque:hover{
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
+  color: #e6dee9;
+}
+
+.swap-icon{
+  height: 14px;
+  width: 14px;
+  float: right;
 }
 
 .icon{
-  font-size: 38px;
-  height: 48px;
-  padding-left: 35px;
-  padding-bottom: 20px;
+  font-size: 16px;
+  padding-left: 25px;
+  margin-top: 12px;
+}
+
+#icon{
+  margin-top: -8px;
+  height: 13px;
+  padding-left: 20px;
+}
+
+#tag-icon{
+  margin-top: 8px;
+  height: 13px;
+  padding-left: 26px;
+  color: #bdc2e8;
 }
 
 .size-text{
-  font-size: 32px;
+  font-size: 16px;
+  font-family: roboto+700;
+  color: #bdc2e8;
   text-align: center;
-  padding-bottom: 20px;
   float: left;
   height: 50px;
-}
-
-.description{
-  font-size: 32px;
-  line-height: 38px;
-  padding-bottom: 15px;
+  margin-top: -10px;
+  margin-left: -8px;
+  margin-bottom: -16px;
 }

@@ -1,9 +1,20 @@
 .back-menu{
- background-color: #323033;
+ background-color: #DDC8C8;
 }
 
 .icon-menu{
   border: 0px;
+  background-color: #DDC8C8;
+}
+
+.hamburger{
+  background-color: black;
+}
+
+.logo{
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
 }
 
 .active-menu{

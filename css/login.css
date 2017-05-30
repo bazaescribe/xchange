@@ -1,0 +1,106 @@
+.body{
+  font-family: Roboto;
+  font-family: Barrio;
+}
+
+.bandyt{
+  font-family: barrio;
+  font-size: 58px;
+  color: white;
+  text-shadow:0 2px 1px black;
+  text-align: center;
+  margin-top: 42px;
+}
+
+.text{
+  font-size: 18px;
+  font-family: roboto;
+  color: black;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 2%;
+  margin-bottom: -16px;
+  width: 100%;
+  margin-top: 35%;
+}
+
+#text{
+  font-size: 14px;
+  font-family: roboto;
+  color: black;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 2%;
+  width: 100%;
+  margin-top: 15%;
+}
+
+.forms{
+  margin-top: 375px;
+  margin-left: 22px;
+}
+
+.boton-login{
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 40px;
+  font-family: roboto;
+  font-weight: lighter;
+}
+
+#boton-login{
+  width: 305px;
+  color: white;
+  background-color: black;
+  height: 40px;
+  font-family: roboto;
+  font-weight: lighter;
+  margin-top: 8px;
+}
+
+.col-12{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+}
+
+
+.boton-trueque{
+  margin-top: -30px;
+  float: right;
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: black;
+  text-align: center;
+  width: 132px;
+  height: 32px;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 0;
+  padding: 8px 0px 6px 1px;
+}
+
+.boton-trueque:hover{
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
+  color: #e6dee9;
+}
+
+
+.img-background{
+  width: 125%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -95px;
+  background-attachment: fixed;
+  background-image: image(img/welcome.jpg);
+  border-radius: 0;
+}

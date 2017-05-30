@@ -1,22 +1,44 @@
 .profile-img{
   height: 75px;
   width: 75px;
-  margin: 75px 25px 45px 15px;
+  margin: 75px 25px 1px 5px;
 }
 
+#profile-img{
+  height:52px;
+  width: 52px;
+  margin: 75px 0 45px 15px;
+}
+
+
 .profile-name{
+  font-family: roboto+700;
   font-size: 20px;
-  margin: 1px 0 0 0;
+  margin-top: 1px;
+  margin-right: 105px;
 }
 
 .follower-box{
   width: 125px;
   margin-left: 16px;
+  margin-top: -6px;
+}
+
+#follower-box{
+  float: right;
+  margin-left: 36px;
 }
 
 .location{
   font-size: 12px;
-  color: grey;
+  font-family: roboto;
+  margin-top: 5px;
+  color: #bdc2e8;
+  margin-right: -20px;
+}
+
+#location{
+  margin-top: 31px;
 }
 
 #follower-box{
@@ -26,9 +48,11 @@
 
 #followers{
   font-size: 20px;
-  color: blue;
+  font-family: roboto+400;
+  color: #bdc2e8;
   margin-top: 5px;
   text-align: left;
+  margin-right: 43px;
 }
 
 #followers-text{
@@ -39,46 +63,70 @@
 .profile-divleft{
   display: inline-block;
   margin-top: -70px;
+  padding-right: 1px;
+  width: 75px;
 }
 
 .profile-divright{
-  width: 228px;
+  width: 272px;
   float: right;
-  margin-top: -125px;
+  margin-top: 24px;
   text-align: left;
 }
 
-
-.boton{
-  width: 520px;
-  margin-top: -35px;
-  margin-left: 65px;
+.user-info{
+  width: 242;
+  float: right;
+  margin-top: 1px;
+  text-align: left;
+  font-family: roboto;
 }
 
+
 .boton-follow{
-  background-color: black;
-  font-size: 16px;
+  margin-top: 14px;
+  margin-bottom: 24px;
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: roboto+700;
+  color: black;
   text-align: center;
-  width: 165px;
-  height: 35px;
+  width: 132px;
+  height: 32px;
   border: 0;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 68px;
+  letter-spacing: 2px;
+  border-radius: 0%;
+  padding: 8px 0px 6px 1px;
+  margin-left: 30%;
+}
+
+.boton-follow:hover{
+  background-color: black;
+  color: #DDC8C8;
 }
 
 .description{
   font-size: 12px;
-  margin: 5px 5px 0 18px;
+  font-family: roboto;
+  margin: 5px 0 5px 3px;
+  text-align: left;
+}
+
+.user-description{
+  font-size: 12px;
+  font-family: roboto;
+  margin: 32px 0 5px 3px;
   text-align: left;
 }
 
 .star-icon{
   font-size: 12px;
-  color: orange;
+  color: #bdc2e8;
 }
 
 #star-icon{
   font-size: 12px;
-  color: blue;
+  color: black;
 }
