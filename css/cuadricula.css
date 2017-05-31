@@ -1,0 +1,17 @@
+.cuadricula{
+ margin: 0 -0.5vw;
+ list-style: none;
+ overflow: auto;
+ padding: 0;
+ height: 95px;
+ width: 95px;
+}
+
+.section-img{
+  margin-top: 20px;
+
+}
+
+#section-img{
+  padding: 0 2px 2px 0;
+}
