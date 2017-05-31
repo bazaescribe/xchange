@@ -18,6 +18,10 @@
   margin-right: 105px;
 }
 
+#profile-name{
+  color: #3c3a3d;
+}
+
 .follower-box{
   width: 125px;
   margin-left: 16px;
@@ -90,7 +94,7 @@
   font-size: 12px;
   font-weight: bold;
   font-family: roboto+700;
-  color: black;
+  color: #3c3a3d;
   text-align: center;
   width: 132px;
   height: 32px;
@@ -103,7 +107,7 @@
 }
 
 .boton-follow:hover{
-  background-color: black;
+  background-color: #3c3a3d;
   color: #DDC8C8;
 }
 
@@ -112,6 +116,7 @@
   font-family: roboto;
   margin: 5px 0 5px 3px;
   text-align: left;
+  color: #3c3a3d;
 }
 
 .user-description{
@@ -128,5 +133,5 @@
 
 #star-icon{
   font-size: 12px;
-  color: black;
+  color: #3c3a3d;
 }

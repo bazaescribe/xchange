@@ -3,62 +3,137 @@
   font-family: Barrio;
 }
 
+.img-bar{
+  width: 100%;
+  position: absolute;
+  margin-left: -4%;
+}
+
 .bandyt{
   font-family: barrio;
-  font-size: 58px;
+  font-size: 82px;
   color: white;
-  text-shadow:0 2px 1px black;
+  text-shadow:0 4px 2px lightpink;
   text-align: center;
-  margin-top: 42px;
+  margin-top: 24%;
+}
+
+#bandyt{
+  font-family: barrio;
+  font-size: 48px;
+  color: white;
+  text-shadow:0 3px 2px lightpink;
+  text-align: center;
+  margin-top: 20%;
 }
 
 .text{
-  font-size: 18px;
+  font-size: 20px;
   font-family: roboto;
-  color: black;
+  color: white;
   text-align: center;
   float: left;
   height: 50px;
-  margin-left: 2%;
+  margin-left: 0%;
   margin-bottom: -16px;
   width: 100%;
-  margin-top: 35%;
+  margin-top: 12%;
+}
+
+#terms{
+  font-size: 14px;
+  font-family: roboto;
+  color: #3c3a3d;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 0%;
+  width: 100%;
+  margin-top: 13%;
 }
 
 #text{
   font-size: 14px;
   font-family: roboto;
-  color: black;
+  color: #3c3a3d;
   text-align: center;
   float: left;
   height: 50px;
-  margin-left: 2%;
+  margin-left: 0%;
   width: 100%;
-  margin-top: 15%;
+  margin-top: 22%;
+}
+
+.text-login{
+  font-size: 18px;
+  font-family: roboto;
+  color: white;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 0%;
+  margin-bottom: -16px;
+  width: 100%;
+  margin-top: 1%;
 }
 
 .forms{
-  margin-top: 375px;
+  margin-top: 90%;
   margin-left: 22px;
 }
 
-.boton-login{
+#forms{
+  margin-top: 64%;
+  margin-left: 10%;
+  width: 80%;
+  font-family: roboto;
+  text-align: center;
+  font-size: 14px;
+  color: #3c3a3d;
+}
+
+.labels{
   color: white;
-  background-color: black;
+}
+
+.login-form{
+  margin-top: 2%;
+  margin-left: 22px;
+}
+
+.input-text{
+  background-color: inherit;
+  border-color: white;
+  width: 305px;
+  margin-left: -12px;
+}
+
+.boton-login{
+  color: #e6dee9;
+  background-color: #3c3a3d;
   width: 150px;
   height: 40px;
   font-family: roboto;
   font-weight: lighter;
 }
 
+.boton-login:hover{
+  background-color: #e6dee9;
+  color: #3c3a3d;
+}
+
 #boton-login{
   width: 305px;
-  color: white;
-  background-color: black;
+  color: #e6dee9;
+  background-color: #3c3a3d;
   height: 40px;
   font-family: roboto;
   font-weight: lighter;
   margin-top: 8px;
+}
+
+.boton-link{
+  color: #e6dee9;
 }
 
 .col-12{
@@ -76,7 +151,7 @@
   font-size: 12px;
   font-weight: bold;
   font-family: Roboto;
-  color: black;
+  color: #3c3a3d;
   text-align: center;
   width: 132px;
   height: 32px;
