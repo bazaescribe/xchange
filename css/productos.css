@@ -2,6 +2,10 @@
   font-family: Roboto;
 }
 
+#media-top{
+  margin-top: 64px;
+}
+
 .thumbnail-box{
   margin-top: 50px;
   border: 1px grey;
@@ -35,6 +39,11 @@
   margin-top: -32px;
 }
 
+.sombra-carrusel-bandy{
+  height: 345px;
+  margin-top: 10px;
+}
+
 .product-image{
   width: 940px;
   height: 960px;
@@ -43,7 +52,17 @@
 .icon-menu{
   height: 45px;
   margin-top: 5px;
-  margin-left: -25px;
+  margin-left: 5px;
+  float: left;
+  width: 400px;
+  color: white;
+}
+
+.icons-row{
+  height: 45px;
+  margin-top: 5px;
+  margin-left: 0px;
+  padding-left: 0;
   float: left;
   width: 400px;
   color: #3c3a3d;
@@ -81,8 +100,8 @@
 
 .icon{
   font-size: 16px;
-  padding-left: 25px;
-  margin-top: 12px;
+  padding-left: 0px;
+  margin-top: 20px;
 }
 
 #icon{

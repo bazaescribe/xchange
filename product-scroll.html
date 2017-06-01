@@ -2,29 +2,59 @@
 <html>
    <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=divice-width, user-scalable=no, initial-scale=1
+        <meta name="viewport" content="width=divice-widt, user-scalable=no, initial-scale=1
         maximum-scale=1, minimum-scale=1">
-        <title> Bater House </title>
+        <title> BANDYT </title>
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/productos.css">
-        <link rel="stylesheet" type="text/css" href="css/profile.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <!--fonts-->
+          <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+          <link rel="stylesheet" type="text/css" href="css/fontello.css">
+
+        <!--bootstrap-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+            <script src="js/bootstrap.min.js"></script>
+
+        <!--estilo-->
+            <link rel="stylesheet" type="text/css" href="css/headermenu.css">
+            <link rel="stylesheet" type="text/css" href="css/login.css">
+            <link rel="stylesheet" type="text/css" href="css/productos.css">
+            <link rel="stylesheet" type="text/css" href="css/profile.css">
+
 
    </head>
 
    <body class="body">
+
+
+     <header>
+       <div class="contenedor">
+         <input type="checkbox" id="menu-bar">
+         <label class="icon-menu" for="menu-bar" id="menu"></label>
+         <h1 id="bandyt-menu">BANDYT</h1>
+         <label class="icon-search" for="header" id="search"></label>
+
+         <nav class="menu">
+             <a href="#" <label class="icon-wpexplorer"for="menu"></label>  PERFIL</a>
+             <a href="#" <label class="icon-wpexplorer"for="menu"></label>  SUBIR </a>
+             <a href="#" <label class="icon-bell"for="menu"></label>  ALERTAS </a>
+             <a href="#" <label class="icon-bookmark"for="menu"></label>  FAVS </a>
+             <a href="#" <label class="icon-help-circled"for="menu"></label>  AYUDA </a>
+             <a href="#" <label class="icon-cog"for="menu"></label>  SETTINGS</a>
+         </nav>
+       </div>
+     </header>
+
 
 <div class="container-fluid">
    <div class="row">
       <div class="col-sm-12 article-box">
 
 <!--PERFIL 1 -->
-   <div class="media">
+   <div class="media" id="media-top">
   <!--foto-->
-      <div class="media-left profile-divleft">
+      <div class="media-left profile-pic">
           <img id="profile-img" class="img-square" src="https://www.dropbox.com/s/5pkbn2p7xr3a0n1/perfil4.jpg?raw=1">
       </div>
 
@@ -75,7 +105,7 @@
 
  <!--icons menu-->
     <div class="row">
-      <div class="col-sm-5 article-box icon-menu">
+      <div class="icon-row col-sm-5 article-box">
         <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
         <span> <img id="icon" src="icons/chat.svg"></span>
         <span> <img id="icon" src="icons/more.svg"></span>
@@ -150,18 +180,18 @@
           </a>
         </div>
 
-     <!--icons menu-->
-        <div class="row">
-          <div class="col-sm-5 article-box icon-menu">
-            <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
-            <span> <img id="icon" src="icons/chat.svg"></span>
-            <span> <img id="icon" src="icons/more.svg"></span>
-              <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
-          </div>
-        </div>
+        <!--icons menu-->
            <div class="row">
-              <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> Size Small </h2>
+             <div class="icon-row col-sm-5 article-box">
+               <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
+               <span> <img id="icon" src="icons/chat.svg"></span>
+               <span> <img id="icon" src="icons/more.svg"></span>
+                 <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
+             </div>
            </div>
+              <div class="row">
+                 <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> Size Small</h2>
+              </div>
 
      <!--descripcion-->
           <h2 class="description">Getting a lil chilly ? This American apparel sweater is just for you ! Only worn a couple of times , practically new ✨
@@ -214,18 +244,18 @@
               </a>
             </div>
 
-         <!--icons menu-->
-            <div class="row">
-              <div class="col-sm-5 article-box icon-menu">
-                <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
-                <span> <img id="icon" src="icons/chat.svg"></span>
-                <span> <img id="icon" src="icons/more.svg"></span>
-                  <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
-              </div>
-            </div>
+            <!--icons menu-->
                <div class="row">
-                  <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> Size Small </h2>
+                 <div class="icon-row col-sm-5 article-box">
+                   <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
+                   <span> <img id="icon" src="icons/chat.svg"></span>
+                   <span> <img id="icon" src="icons/more.svg"></span>
+                     <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
+                 </div>
                </div>
+                  <div class="row">
+                     <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> Size Large </h2>
+                  </div>
 
          <!--descripcion-->
               <h2 class="description">Lil pac tee. Brand new what's better then 2pac with Lil yachty hair?
@@ -290,18 +320,18 @@
                   </a>
                 </div>
 
-             <!--icons menu-->
-                <div class="row">
-                  <div class="col-sm-5 article-box icon-menu">
-                    <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
-                    <span> <img id="icon" src="icons/chat.svg"></span>
-                    <span> <img id="icon" src="icons/more.svg"></span>
-                      <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
-                  </div>
-                </div>
+                <!--icons menu-->
                    <div class="row">
-                      <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> Size 10 </h2>
+                     <div class="icon-row col-sm-5 article-box">
+                       <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
+                       <span> <img id="icon" src="icons/chat.svg"></span>
+                       <span> <img id="icon" src="icons/more.svg"></span>
+                         <p>  <a href="trueque-solicitado.html" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
+                     </div>
                    </div>
+                      <div class="row">
+                         <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> Size Medium </h2>
+                      </div>
 
              <!--descripcion-->
                   <h2 class="description">The most maxing 70's patterned afghan jacket with white faux fur trim. Super groovy swirl pattern piece. Model size 10.
@@ -354,18 +384,18 @@
                       </a>
                     </div>
 
-                 <!--icons menu-->
-                    <div class="row">
-                      <div class="col-sm-5 article-box icon-menu">
-                        <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
-                        <span> <img id="icon" src="icons/chat.svg"></span>
-                        <span> <img id="icon" src="icons/more.svg"></span>
-                          <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
-                      </div>
-                    </div>
+                    <!--icons menu-->
                        <div class="row">
-                          <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> 253 pages </h2>
+                         <div class="icon-row col-sm-5 article-box">
+                           <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
+                           <span> <img id="icon" src="icons/chat.svg"></span>
+                           <span> <img id="icon" src="icons/more.svg"></span>
+                             <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
+                         </div>
                        </div>
+                          <div class="row">
+                             <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> 258 pages </h2>
+                          </div>
 
                  <!--descripcion-->
                       <h2 class="description">Nausea:: Jean-Paul Sartre In this novel, Antoine Roquentin, an introspective historian, records the disturbing shifts in his perceptions and his struggle to restore meaning to life in a continuing present and without lies.
@@ -436,18 +466,18 @@
                             </a>
                           </div>
 
-                       <!--icons menu-->
-                          <div class="row">
-                            <div class="col-sm-5 article-box icon-menu">
-                              <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
-                              <span> <img id="icon" src="icons/chat.svg"></span>
-                              <span> <img id="icon" src="icons/more.svg"></span>
-                                <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
-                            </div>
-                          </div>
+                          <!--icons menu-->
                              <div class="row">
-                                <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> Size Small </h2>
+                               <div class="icon-row col-sm-5 article-box">
+                                 <span class="icon glyphicon glyphicon-heart" aria-hidden="true"></span>
+                                 <span> <img id="icon" src="icons/chat.svg"></span>
+                                 <span> <img id="icon" src="icons/more.svg"></span>
+                                   <p>  <a href="#" class="btn btn-primary boton-trueque" role="button">Trueque</a>  </p>
+                               </div>
                              </div>
+                                <div class="row">
+                                   <h2 class="size-text"> <span class="glyphicon glyphicon-tag" id="tag-icon" aria-hidden="true"></span> Size Medium</h2>
+                                </div>
 
                      <!--descripcion-->
                           <h2 class="description">Voglia di denim felpa e eco pelle? Ecco con questa giacca della <strong> #gas </strong>

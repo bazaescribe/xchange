@@ -27,6 +27,18 @@
   margin-top: 20%;
 }
 
+#bandyt-menu{
+  font-family: barrio;
+  font-size: 42px;
+  color: white;
+  text-shadow:0 2px 1px lightpink;
+  text-align: center;
+  margin-top: -15%;
+  margin-left: 32%;
+  padding-left: 0;
+}
+
+
 .text{
   font-size: 20px;
   font-family: roboto;
@@ -77,6 +89,45 @@
   margin-top: 1%;
 }
 
+.text-trueque{
+  font-size: 18px;
+  font-family: roboto;
+  color: #3c3a3d;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 0%;
+  margin-bottom: -16px;
+  width: 100%;
+  margin-top: 60%;
+}
+
+.instrucciones{
+  font-size: 14px;
+  font-family: roboto;
+  color: #3c3a3d;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 0%;
+  margin-bottom: 0;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.letritas{
+  font-size: 16px;
+  font-family: roboto;
+  color: grey;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 0%;
+  margin-bottom: -16px;
+  width: 100%;
+  margin-top: 24%;
+}
+
 .forms{
   margin-top: 90%;
   margin-left: 22px;
@@ -101,6 +152,11 @@
   margin-left: 22px;
 }
 
+#login-form{
+  margin-top: 50%;
+  margin-left: 22px;
+}
+
 .input-text{
   background-color: inherit;
   border-color: white;
@@ -122,14 +178,14 @@
   color: #3c3a3d;
 }
 
-#boton-login{
+#continuar{
   width: 305px;
   color: #e6dee9;
   background-color: #3c3a3d;
   height: 40px;
   font-family: roboto;
   font-weight: lighter;
-  margin-top: 8px;
+  margin-top: 208px;
 }
 
 .boton-link{
