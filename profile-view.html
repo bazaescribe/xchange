@@ -98,13 +98,13 @@
   <section>
     <div class="container-fluid contenedor">
         <div class="row one">
-          <div id="photo1" class="col-xs-4" onclick="myFunction()">
+          <div id="photo1" onclick="myFunction('photo1')" class="col-xs-4">
             <img src="https://www.dropbox.com/s/tj1r9njlm9mvzb0/P8-1.jpg?raw=1" class="img-responsive imgL" />
           </div>
-          <div class="col-xs-4">
+          <div id="photo2" onclick="myFunction('photo2')" class="col-xs-4">
           <img src="https://www.dropbox.com/s/fyf5rmpt8vpfo51/P5-6.jpg?raw=1" class="img-responsive imgC" />
           </div>
-          <div class="col-xs-4">
+          <div id="photo3" onclick="myFunction('photo3')" class="col-xs-4">
           <img src="https://www.dropbox.com/s/li4ohg5w2ja0t23/P5-1.jpg?raw=1" class="img-responsive imgR" />
           </div>
         </div>
@@ -179,10 +179,12 @@
   </section>
 
   <script type="text/javascript">
-    function myFunction(){
-      document.getElementById('photo1').style.border = '5px solid red';
-      document.getElementById('photo1').style.opacity = '0.5';
-      document.getElementById('photo1').style.padding = '2';
+    function myFunction(id_div){
+      var div_to_change=id_div;
+      console.log(id_div);
+      document.getElementById(div_to_change).style.border = '5px solid red';
+      document.getElementById(div_to_change).style.opacity = '0.5';
+      document.getElementById(div_to_change).style.padding = '2';
     }
   </script>
    </body>
