@@ -103,6 +103,7 @@ section{
 margin-top: 0%;
 width: 108%;
 margin-left: -4%;
+z-index: 1;
 }
 
 .col-xs-4{

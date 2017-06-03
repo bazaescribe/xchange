@@ -178,6 +178,21 @@
   color: #3c3a3d;
 }
 
+.connect-fb{
+  color: #e6dee9;
+  background-color: #3c3a3d;
+  width: 305px;
+  height: 40px;
+  font-family: roboto;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+.connect-fb:hover{
+  background-color: #e6dee9;
+  color: #3c3a3d;
+}
+
 #continuar{
   width: 305px;
   color: #e6dee9;

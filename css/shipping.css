@@ -1,0 +1,76 @@
+/* Estilo del encabezado del Precio del Shipping*/
+.rowone {
+  margin-top: 75px;
+}
+.rowtwo{
+  margin-top: -20px;
+}
+
+/*-- Estilo de Items a recibir*/
+.NoItems{
+  font-size: 16px;
+  font-family: roboto;
+  color: grey;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 0%;
+  margin-bottom: -16px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+ /*Imagen del item o items a recibir*/
+#FinalItem{
+  height: 130px;
+  width: 130px;
+  padding-right: 15px;
+}
+
+/* Estilo de Origen y destino*/
+.Donnes{
+  font-size: 13px;
+  font-family: roboto;
+  color: grey;
+  text-align: center;
+  float: left;
+  height: 50px;
+  margin-left: 0%;
+  margin-bottom: -16px;
+  width: 100%;
+}
+
+  /*--Mensaje sobre el servicio de mensajería*/
+
+.mensajeria{
+  font-size: 13px;
+  font-family: roboto;
+  color: grey;
+  text-align: center;
+  height: 50px;
+  margin-left: 0%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.FedEx{
+  height: 42px;
+  width: 85px;
+  margin-left: 110px;
+}
+
+
+/*Estilo de los botones de pago*/
+
+.rowfive{
+  margin-top: 50px;
+}
+#pago{
+  width: 305px;
+  color: #e6dee9;
+  background-color: #3c3a3d;
+  height: 40px;
+  font-family: roboto;
+  font-weight: lighter;
+  margin-top: 5px;
+}
