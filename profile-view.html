@@ -112,13 +112,13 @@
 
   <div class="container-fluid contenedor">
       <div class="row two">
-        <div class="col-xs-4">
+        <div id="photo6" onclick="myFunction('photo6')" class="col-xs-4">
           <img src="https://www.dropbox.com/s/rtlu9mb48v1ri9k/P5-2.jpg?raw=1" class="img-responsive imgL" />
         </div>
-        <div class="col-xs-4">
+        <div id="photo4" onclick="myFunction('photo4')" class="col-xs-4">
         <img src="https://www.dropbox.com/s/df13ir7wh942l2s/P5-4.jpg?raw=1" class="img-responsive imgC" />
         </div>
-        <div class="col-xs-4">
+        <div id="photo5" onclick="myFunction('photo5')" class="col-xs-4">
         <img src="https://www.dropbox.com/s/56cpeiva0m4n2sj/P8-1.jpg?raw=1" class="img-responsive imgR" />
         </div>
       </div>
@@ -181,13 +181,13 @@
   <script type="text/javascript">
     function myFunction(id_div){
       var div_to_change=id_div;
-      console.log(id_div);
-      document.getElementById(div_to_change).style.border = '5px solid red';
+
+      document.getElementById(div_to_change).style.border = '5px solid white';
       document.getElementById(div_to_change).style.opacity = '0.5';
       document.getElementById(div_to_change).style.padding = '2';
     }
   </script>
-   </body>
+  </body>
 
 
 </html>
